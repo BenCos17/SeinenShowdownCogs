@@ -1,5 +1,4 @@
-from .naofumicog import NaofumicogCog
-
+from .naofumicog import naofumicog
 
 def setup(bot):
-    bot.add_cog(NaofumicogCog(bot))
+    bot.add_cog(naofumicog(bot))
